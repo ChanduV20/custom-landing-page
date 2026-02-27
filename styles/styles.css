@@ -1,0 +1,164 @@
+
+
+body{
+    margin : 0 ;
+    /* padding : 0 ; */
+    display : flex ; 
+    font-family: 'Roboto';
+    flex-direction: column;
+    min-height : 100vh;
+    /* align-items: center; */
+}
+
+.header{
+    flex : 1 ;
+    display : flex ;
+    color : white;
+    background-color: #1F2937;
+    padding : 0 100px;
+    justify-content: space-between;
+
+}
+
+ul {
+    /* flex-grow : 1 ; */
+    list-style: none;
+    display : flex ;
+    gap : 20px ;
+    align-items: center;
+}
+
+
+a{
+  color : white ;
+  text-decoration: none;
+}
+
+/* Hero - Styling */
+
+.hero{
+    flex : 1 ;
+    padding : 80px 100px ;
+    background-color: #1F2937;
+    color : white ;
+    display:  flex;
+    justify-content: space-between;
+    gap : 20px;
+}
+
+.img{
+    width :500px ;
+    height : auto ;
+    border-radius: 10px;
+}
+
+.hero-info{
+    width : 1000px ;
+    font-size : 24px;
+
+}
+
+#hero-header{
+    font-weight: 900;
+    font-size : 48px;
+    margin-bottom: 0;
+}
+
+
+.sign-up,.call-signup{
+    padding : 10px;
+    width : 120px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color : white;
+    font-weight: bold;
+    font-size : 16px;
+    border : none;
+}
+
+/* Random IInfo */
+
+.rand-info h1{
+    margin : 0 0 50px 0;
+    text-align: center;
+    font-size : 36px;
+    font-weight: 900;;
+}
+.rand-info{
+    flex : 1 ;
+    padding : 80px 100px;
+}
+
+.border-box {
+    display :flex;
+    justify-content: space-evenly;
+}
+
+.each-box{
+    width : 150px;
+}
+
+.box{
+    border : 3px solid #3882F6;
+    width : auto;
+    height : 160px;
+    border-radius : 10px;
+}
+
+/* quote box */
+
+.quote {
+    padding : 80px 100px;
+    background-color : #E5E7EB
+}
+
+.quote-info{
+    font-size : 36px;
+    font-style : italic ; 
+    font-weight : 50;
+}
+
+.desg{
+    text-align: right;
+    font-weight : 900;
+}
+
+/* contact */
+
+.contact{
+    flex : 1;
+    padding : 50px 50px;
+}
+
+.blue-thingy{
+    padding : 40px 0 20px 60px ;
+    background-color: #3882F6;
+    color : white;
+    border-radius: 10px;
+    display : flex ;
+    justify-content: space-around;
+}
+
+.contact p {
+    margin : 5px; 
+}
+
+.call-head{
+    font-weight: 900;
+}
+
+.call-signup
+{
+    border : 2px solid white ;
+    color : white;
+}
+
+/* footer */
+
+.footer{
+    flex : 1;
+    padding : 30px 100px ;
+    text-align: center;
+    color : white;
+    background-color: #1F2937;
+}
